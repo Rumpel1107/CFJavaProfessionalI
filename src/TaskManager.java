@@ -31,7 +31,8 @@ public class TaskManager {
 		return sc.nextInt();
 	}
 
-	public static int runOption(int option, Scanner sc, int totalPriority) {
+	public static int runOption(int option, Scanner sc, int totalPriority)
+	{
 		sc.nextLine();
 
 		switch (option) {
