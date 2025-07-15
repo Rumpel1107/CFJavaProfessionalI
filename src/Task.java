@@ -16,7 +16,7 @@ public class Task extends Activity {
 	}
 
 	@Override
-	public void run() {
+	public void execute() {
 		System.out.println("Tarea: " + getName() + " (Prioridad: " + priority + ")");
 	}
 

@@ -10,6 +10,6 @@ public abstract class Activity {
 		return name;
 	}
 	
-	public abstract void run();
+	public abstract void execute();
 	
 }
